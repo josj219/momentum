@@ -1,7 +1,15 @@
 .list {
-    margin-bottom: 20px;
-  }
-  
-  .js-toDoList {
-    font-size: 22px;
-  }
+  margin-bottom: 20px;
+}
+
+.js-toDoList {
+  font-size: 22px;
+}
+
+li {
+margin-top: 5px;
+}
+i {
+cursor:pointer;
+}
+

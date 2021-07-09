@@ -38,7 +38,7 @@ input {
   background: none;
   appearance: none;
   border: 0;
-  padding-top: 40px;
+  padding-top: 30px;
   font-size: 25px;
   color: white;
   border-bottom: 2px solid white;
@@ -67,15 +67,14 @@ ul {
 .js-greetings {
   margin : 10px;
   font-size : 52px;
-
 }
 
 .center {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 200px;
 }
-
 .center .name__text {
   font-size: 36px;
   margin-bottom: 20px;

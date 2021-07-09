@@ -1,17 +1,16 @@
 const clockContainer = document.querySelector(".js-clock"),
-clockTitle = clockContainer.querySelector("h1");
+  clockTitle = clockContainer.querySelector("h1");
 
-function getTime(){
+function getTime() {
   const date = new Date();
-  const minutes = date.getMinutes();
-  const hours = date.getHours();
-  const seconds = date.getSeconds();
-  clockTitle.innerText = `${hours < 10? `0${hours}`:hours}:${minutes < 10? `0${minutes}`:minutes}`;
+  const minutes = String(date.getMinutes()).padStart(2, "0");
+  const hours = String(date.getHours()).padStart(2, "0");
+  clockTitle.innerText = `${hours}:${minutes}`;
 }
 
-function init(){
+function init() {
   getTime();
-  setInterval(getTime,1000);
+  setInterval(getTime, 1000);
 }
 
 init();
