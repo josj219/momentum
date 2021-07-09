@@ -44,10 +44,6 @@ input {
   border-bottom: 2px solid white;
 }
 
-i{
-  background:transparent;
-}
-
 input::placeholder {
   color: white;
 }

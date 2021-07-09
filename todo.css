@@ -2,6 +2,14 @@
     margin-bottom: 20px;
   }
   
-  .js-toDoList {
+.js-toDoList {
     font-size: 22px;
   }
+
+li {
+  margin-top: 5px;
+}
+i {
+  cursor:pointer;
+}
+
